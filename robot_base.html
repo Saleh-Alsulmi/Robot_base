@@ -1,0 +1,33 @@
+<html>
+
+<link rel="stylesheet" href="robot_base.css">
+<script src="robot_base.js"></script>
+<form method= "POST" action= "robot_base.php">
+
+<head>
+<title>Robot Base</title>
+</head>
+<body>
+
+<h1>Robot Base Controller</h1>
+
+<br>
+<br>
+<br>
+
+<p name= "blue" id="blue" >Control your robot movement</p>
+
+<button type="button" id = "btn1" name="btn1" class = "button" onclick= "updatemovementF(movement)" >Move to front</button> 
+<br>
+<button type="button" name="btn2" id = "btn2" class = "button" onclick= "updatemovementL(movement)">Move to left</button>
+<button type="button" name="btn3" id = "btn3" class = "button" onclick= "updatemovementS(movement)">Stop</button>
+<button type="button" name="btn4" id = "btn4" class = "button" onclick= "updatemovementR(movement)">Move to right</button>
+<br>
+<button type="button" name="btn5" id = "btn5" class = "button" onclick= "updatemovementB(movement)">Move to Back</button>
+<input type="hidden" id="movement" name= "movement" value="">
+
+<br>
+<input id="btn6" type="submit" value="submit" name="save" class = "button">  </input>
+
+</body>
+</html>

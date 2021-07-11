@@ -1,0 +1,162 @@
+body {
+	
+background: linear-gradient(to top, darkviolet 0%, blue 10%,darkgrey 10%, darkred 90%, blue 90%, darkviolet 100%);
+
+}
+
+h1 {
+	
+	color: orange;
+	text-align: center;
+	font-family: fantasy;
+	font-style: oblique;
+	border-style: solid;
+	border-width: 5px;
+	border-color: lightGreen;
+	
+}
+
+#blue {
+	
+	color: yellow;
+	text-align: center;
+	font-style: italic;
+	font-family: Monospace;
+	font-size: 30px;
+	
+}
+
+#btn1 {
+	
+  margin: 80px 10px 10px 865px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: fantasy;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: darkgreen;
+  background-color: lightblue;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+	
+}
+
+#btn2 {
+	
+  margin: 80px 10px 10px 600px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: fantasy;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: darkblue;
+  background-color: lightblue;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+	
+}
+
+#btn3 {
+	
+	margin: 80px 10px 10px 130px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: fantasy;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: darkred;
+  background-color: lightblue;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+	
+}
+
+#btn4 {
+	
+	margin: 80px 10px 10px 142px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: fantasy;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: darkblue;
+  background-color: lightblue;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+	
+}
+
+#btn5 {
+	
+	margin: 80px 10px 10px 865px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: fantasy;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: darkgreen;
+  background-color: lightblue;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+	
+}
+
+#btn6 {
+	
+  margin: 80px 10px 10px 889px;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: fantasy;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: red;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 75px;
+  box-shadow: 0 9px #999;
+	
+}
+
+.button:hover {
+	background-color: #3e8e41
+	}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#movement {
+	
+	
+}
