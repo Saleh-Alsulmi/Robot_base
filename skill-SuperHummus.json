@@ -1,0 +1,576 @@
+{
+  "intents": [
+    {
+      "intent": "الترحيب",
+      "examples": [
+        {
+          "text": "ألو"
+        },
+        {
+          "text": "ارحب"
+        },
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "السلام عليكم ورحمة الله"
+        },
+        {
+          "text": "السلام عليكم ورحمة الله وبركاته"
+        },
+        {
+          "text": "الو"
+        },
+        {
+          "text": "اهلا"
+        },
+        {
+          "text": "اهلين"
+        },
+        {
+          "text": "سلام"
+        },
+        {
+          "text": "مرحب"
+        },
+        {
+          "text": "مرحبا"
+        },
+        {
+          "text": "هاي"
+        },
+        {
+          "text": "هلا"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "الخروج_عن_النص",
+      "examples": [
+        {
+          "text": "افطرت"
+        },
+        {
+          "text": "انت تحب"
+        },
+        {
+          "text": "بلا فائدة"
+        },
+        {
+          "text": "تحبني"
+        },
+        {
+          "text": "تروشت"
+        },
+        {
+          "text": "تعشيت"
+        },
+        {
+          "text": "تغديت"
+        },
+        {
+          "text": "حشرة"
+        },
+        {
+          "text": "حمار"
+        },
+        {
+          "text": "حيوان"
+        },
+        {
+          "text": "سيء"
+        },
+        {
+          "text": "غبي"
+        },
+        {
+          "text": "فاشل"
+        },
+        {
+          "text": "كلب"
+        },
+        {
+          "text": "كل تبن"
+        },
+        {
+          "text": "كم طولك"
+        },
+        {
+          "text": "كم عمرك"
+        },
+        {
+          "text": "كم وزنك"
+        },
+        {
+          "text": "كيف الحال"
+        },
+        {
+          "text": "من انت"
+        },
+        {
+          "text": "وش جنسك"
+        },
+        {
+          "text": "وشلونك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "المحركات",
+      "examples": [
+        {
+          "text": "كيف يعمل الروبوت"
+        },
+        {
+          "text": "كيف يمكنني تحريك الروبوت"
+        },
+        {
+          "text": "كيف يمكنني تشغيل الروبوت"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "حركة_قاعدة_الروبوت",
+      "examples": [
+        {
+          "text": "ايقاف الروبوت"
+        },
+        {
+          "text": "حركة الروبوت"
+        },
+        {
+          "text": "كيف اوقف الروبوت"
+        },
+        {
+          "text": "كيف يتحرك الروبوت"
+        },
+        {
+          "text": "كيف يمكنني احرك الروبوت؟"
+        },
+        {
+          "text": "لا أريد تحريك الروبوت"
+        },
+        {
+          "text": "لا اريد اختيار اي حركة للروبوت"
+        },
+        {
+          "text": "لم اقم بإختيار اي حركة"
+        },
+        {
+          "text": "ماذا لو لم اختر اي حركة"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "رد_الثناء",
+      "examples": [
+        {
+          "text": "احسنت"
+        },
+        {
+          "text": "اشكرك"
+        },
+        {
+          "text": "افدتني"
+        },
+        {
+          "text": "بيض الله وجهك"
+        },
+        {
+          "text": "ثانكس"
+        },
+        {
+          "text": "ثانك يو"
+        },
+        {
+          "text": "جزاك الله خير"
+        },
+        {
+          "text": "جزيت خيرا"
+        },
+        {
+          "text": "جميل"
+        },
+        {
+          "text": "جيد"
+        },
+        {
+          "text": "رائع"
+        },
+        {
+          "text": "شكرا"
+        },
+        {
+          "text": "شكرا للمساعدة"
+        },
+        {
+          "text": "فهمت"
+        },
+        {
+          "text": "فهمت شكرا"
+        },
+        {
+          "text": "كفو"
+        },
+        {
+          "text": "لقد كان هذا مفيدا"
+        },
+        {
+          "text": "ما قصرت"
+        },
+        {
+          "text": "مبدع"
+        },
+        {
+          "text": "متشكر"
+        },
+        {
+          "text": "مذهل"
+        },
+        {
+          "text": "مشكور"
+        },
+        {
+          "text": "مفهوم"
+        },
+        {
+          "text": "ممتاز"
+        },
+        {
+          "text": "نايس"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "زوايا_الروبوت",
+      "examples": [
+        {
+          "text": "كم اصغر واكبر قيمة للزاوية ؟"
+        },
+        {
+          "text": "كم العدد المطلوب لتحديد قيمة الزاوية للمحركات الست ؟"
+        },
+        {
+          "text": "كيف احدد الزاوية ؟"
+        },
+        {
+          "text": "كيف اختار قيمة الزاوية ؟"
+        },
+        {
+          "text": "كيف يتم تحديد الزاوية ؟"
+        },
+        {
+          "text": "هل استطيع ترك قيمة زاوية فارغة ؟"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "عمل_الذراع_الآلية",
+      "examples": [
+        {
+          "text": "اطفاء الروبوت"
+        },
+        {
+          "text": "ترك الروبوت بدون تشغيل"
+        },
+        {
+          "text": "تشغيل الروبوت"
+        },
+        {
+          "text": "ماذا لو لم اشغل ذراع الروبوت ؟"
+        },
+        {
+          "text": "مالمطلوب عند الإنتهاء من تحديد الزوايا ؟"
+        },
+        {
+          "text": "مالمقصود بتشغيل الروبوت ؟"
+        },
+        {
+          "text": "هل يجب ان اقوم بتشغيل الروبوت ؟"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1626663930387",
+      "context": {
+        "currency": "@sys-currency"
+      },
+      "conditions": "@sys-currency",
+      "event_name": "input",
+      "dialog_node": "handler_4_1626663930394"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1626664123374",
+      "context": {
+        "number": "@sys-number:6"
+      },
+      "conditions": "@sys-number:6",
+      "event_name": "input",
+      "dialog_node": "handler_4_1626664123374"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1626663930387",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1626663930394",
+      "previous_sibling": "handler_4_1626663930394"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1626664123374",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1626664123374",
+      "previous_sibling": "handler_4_1626664123374"
+    },
+    {
+      "type": "standard",
+      "title": "تشغيل_الذراع",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " يمكن تشغيل الروبوت بعد تحديد قيم الزوايا عن طريق ضغط زر \"تشغيل الروبوت \" أو تحديد فقط قيم الزوايا دون تشغيل الروبوت اذا كنت لا تريد من الروبوت العمل "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#عمل_الذراع_الآلية",
+      "dialog_node": "node_10_1626666847652",
+      "previous_sibling": "node_7_1626666133913"
+    },
+    {
+      "type": "standard",
+      "title": "حركة_الروبوت",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يمكنك اختيار حركة الروبوت المرغوبة عن طريق الذهاب الى صفحة تحكم قاعدة الروبوت, (ملاحظة : عدم اختيار اي حركة للروبوت يعني انه سيثبت في مكانه اي وكأنك/ي اخترت/ي زر توقف )"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#حركة_قاعدة_الروبوت",
+      "dialog_node": "node_2_1626668144056",
+      "previous_sibling": "node_10_1626666847652"
+    },
+    {
+      "type": "standard",
+      "title": "الثناء",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تشرفنا بخدمتك عزيزي/تي وهذا أقل ما نقدم"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#رد_الثناء",
+      "dialog_node": "node_2_1626668318610",
+      "previous_sibling": "node_2_1626668144056"
+    },
+    {
+      "type": "standard",
+      "title": "الترحيب",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " يا اهلا و سهلا, إسألني أنا جاهز "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#الترحيب",
+      "dialog_node": "node_5_1626662141684",
+      "previous_sibling": "node_7_1626668524830"
+    },
+    {
+      "type": "frame",
+      "title": "تحكم_روبوت",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يمكنك التحكم بالروبوت عن طريق تحديد رقم الزوايا لكل محرك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#المحركات",
+      "dialog_node": "node_6_1626663801627",
+      "previous_sibling": "node_5_1626662141684"
+    },
+    {
+      "type": "standard",
+      "title": "الزوايا",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يمكنك تحديد رقم الزاوية عن طريق تحريك السلايدر , اصغر قيمة يمكنك اختيارها هي 90 درجة واكبر قيمة هي 180 , ( ملاحظة لا يمكنك ترك محرك بدون اختيار قيمة الزاوية اتلخاصة به )"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#زوايا_الروبوت",
+      "dialog_node": "node_7_1626666133913",
+      "previous_sibling": "node_6_1626663801627"
+    },
+    {
+      "type": "standard",
+      "title": "خارج_النطاق",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "عذرا, ولكن لست متفرغا لتفاهاتك "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#الخروج_عن_النص",
+      "dialog_node": "node_7_1626668524830",
+      "previous_sibling": "مرحبا"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1626663801627",
+      "variable": "$currency",
+      "dialog_node": "slot_5_1626663930387"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1626663801627",
+      "variable": "$number",
+      "dialog_node": "slot_5_1626664123374",
+      "previous_sibling": "slot_5_1626663930387"
+    },
+    {
+      "type": "standard",
+      "title": "أي شيء آخر",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "لم أفهم، يمكنك محاولة اعادة الصياغة"
+              },
+              {
+                "text": "هل يمكنك اعادة صياغة عبارتك؟ أنا لا فهم"
+              },
+              {
+                "text": "لم أفهم قصدك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "أي شيء آخر",
+      "previous_sibling": "node_2_1626668318610",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "مرحبا",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مرحبا بك في لوحة التحكم الخاصة بالروبوت, كيف يمكنني مساعدتك ؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "مرحبا"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": ":هل قصدت",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "كل ما سبق خطأ"
+    },
+    "human_agent_assist": {
+      "prompt": ":هل قصدت"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "SuperHummus",
+  "language": "ar",
+  "description": "Super Hummus is a bot will help you to start with your first movement of the robot."
+}
