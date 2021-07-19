@@ -29,5 +29,19 @@
 <br>
 <input id="btn6" type="submit" value="submit" name="save" class = "button">  </input>
 
+  <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "0f7c036f-4df6-4651-9c16-53102ef86181", // The ID of this integration.
+      region: "eu-de", // The region your integration is hosted in.
+      serviceInstanceID: "7efc2808-6a56-41de-b927-8f5b86589760", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+  
 </body>
 </html>
